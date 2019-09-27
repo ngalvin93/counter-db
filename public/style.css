@@ -16,6 +16,7 @@ h1 h2{
 
 #counter {
     font-size: 300px;
+    text-align: center;
 }
 
 .buttons {
@@ -27,10 +28,18 @@ button {
     background-color: red;
     border: none;
     color: white;
-    padding: 20px;
+    padding: 10px 30px;
     text-align: center;
     font-size: 20px;
     cursor: pointer;
+    border-radius: 4px;
+    margin: 5px;
+}
+button:hover {
+    background-color: rgb(223, 4, 4);
+}
+button:focus {
+    outline: 0;
 }
 
 #increment #decrement #reset {
